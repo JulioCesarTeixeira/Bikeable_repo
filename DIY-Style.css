@@ -14,83 +14,8 @@ body {
 	overflow: auto;
 }
 
-/* navigation-blocks + links + logo*/
-
-.ml-auto {margin-left: auto !important; margin-right: 3%;}
-.navbar-nav {margin-left: 3%;}
-
-.navigation-links{
-	display: inline-block;
-	text-decoration: none;
-	font-weight: bold;
-	margin: 0 15px 0 15px;
-}
-
-.dropdown-link  {color: black !important;
-
-}
-
-.dropdown-menu {
-	display: block;
-	position: absolute;
-	text-align: center;
-	list-style: none;
-	right: auto;
-
-
-	border: none !important;
-	background-color: white;
-	border-radius: 10px;}
-
-.navbar-brand {margin-left: 1%;}
-
-/* navigation effects/animation */
-
-.navigation-links {
-	display: inline-block;
-	vertical-align: middle;
-	-webkit-transform: perspective(1px) translateZ(0);
-	transform: perspective(1px) translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	-webkit-transition-duration: 0.3s;
-	transition-duration: 0.3s;
-	-webkit-transition-property: transform;
-	transition-property: transform;
-}
-.navigation-links:hover, .navigation-links:focus, .navigation-links:active {
-	-webkit-transform: translateX(8px);
-	transform: translateX(8px);
-
-}
-
-/* navbar toggler */
-
-.navbar-toggler-icon {
-	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-.navbar-toggler {
-	display: block;
-	line-height: 1;
-	-webkit-transition: color 0.2s ease-in-out;
-	transition: color 0.2s ease-in-out;
-}
-
-.navbar-toggler {
-	position: relative;
-	background: transparent;
-	padding-left: 2%;
-}
-
-.navbar-toggler::before {
-	position: absolute;
-	content: '';
-	top: -8px;
-	right: -12px;
-	left: -12px;
-	bottom: -8px;
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
+.header {
+	background-color: #5927CF;
 }
 
 .carousel-inner img {
