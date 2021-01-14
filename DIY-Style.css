@@ -1,0 +1,227 @@
+body, html {
+	height: 100%;
+}
+
+body {
+	scroll-behavior: smooth;
+	background-color: #fffff0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+}
+
+body {
+	position: relative;
+	overflow: auto;
+}
+
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+	font-size: 500%;
+	text-shadow: 1px 1px 5px #000;
+}
+
+.carousel-caption h2 {
+	font-size: 180%;
+	font-weight: 400;
+	text-shadow: 1px 1px 5px #000;
+	padding-bottom: 1.25rem;
+}
+
+.btn-primary {
+	background-color: #5927CF;
+	border: 1px solid #4d1fb8;
+	margin-bottom: 5px;
+}
+
+.btn-primary:hover {
+	background-color: #4d1fb8;
+	border: 1px solid #4d1fb8;
+}
+
+hr {
+	border-top: 3px solid #5927CF;
+	width: 95%;
+	margin-top: .3rem;
+}
+
+.padding:before {
+	display: block;
+}
+
+/*spacing after block*/
+.padding:after {
+	height: 10vh;
+	content: "";
+	display: block;
+}
+/* space between slider and jumbotron*/
+.quote:before {
+	height: 20vh;
+	content: "";
+	display: block;
+}
+
+.jumbotron {
+	background-color: #FDE8D8;
+}
+
+.first:after {
+	margin-bottom: 10%;
+}
+
+.carousel-item {
+	transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+	-webkit-backface-visibility: visible;
+	backface-visibility: visible;
+}
+
+figure {
+	position: relative;
+	width: 100%;
+	height: 60%;
+	margin: 0;
+}
+
+.fixed-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+/*
+.parallax {
+	background-image: url("images/diy_2.png");
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+*/
+
+.tutorialsm {
+	padding: 15px;
+	background-color: #FDE8D8;
+	margin-bottom: 5px;
+}
+
+.tutorials a {
+	color: #5927CF;
+	text-decoration: none;
+}
+
+.tutorials a:hover {
+	background-color: #4d1fb8;
+	border: 1px solid #4d1fb8;
+	color: #fffff0;
+}
+
+.tutorials:before {
+	height: 10vh;
+	content: "";
+	display: block;
+}
+
+.media {
+	margin-top: 4rem;
+	display: block;
+	height: 100%;
+	width: 100vw;
+}
+
+
+/*social media icon sizes*/
+.social a {
+	font-size: 2.5em;
+	padding: 3rem;
+}
+
+.fa-facebook {
+	color: #3b5998;
+}
+
+.fa-twitter {
+	color: #00aced;
+}
+
+.fa-instagram {
+	color: #517fa4;
+}
+
+.fa-youtube {
+	color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-youtube:hover,
+.fa-instagram:hover {
+	color: #5927CF;
+}
+
+
+/* Media Query */
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+	.carousel-caption {
+		top: 40%;
+	}
+
+	.carousel-caption h1 {
+		font-size: 340%;
+		text-shadow: 1px 1px 5px #000;
+	}
+
+	.carousel-caption h2 {
+		font-size: 120%;
+		padding-bottom: .25rem;
+}
+	.carousel-caption .btn-primary {
+		font-size: 90%;
+		padding: 10px 10px;
+	}
+}
+
+@media (max-width: 576px) {
+	.carousel-caption {
+		top: 35%;
+	}
+
+	.carousel-caption h1 {
+		font-size: 220%;
+	}
+
+	.carousel-caption h2 {
+		font-size: 100%;
+		padding-bottom: .25rem;
+	}
+	.carousel-caption .btn {
+		font-size: 90%;
+		padding: 4px 6px;
+	}
+	.carousel-indicators {
+		display: none;
+	}
+}
