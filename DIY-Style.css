@@ -13,11 +13,12 @@ body {
 
 /* HEADER SECTION */
 
-/* navigation bar */
+/* ion bar */
 
 .navbar {
 	height: 80px;
 	box-shadow: 0 0 15px #3B1A89;
+	z-index: 999;
 }
 
 .navbar a {
@@ -38,6 +39,7 @@ body {
 
 .navbar-nav {
 	margin-left: 3%;
+	background-color: #5927CF;
 }
 
 .navigation-links {
