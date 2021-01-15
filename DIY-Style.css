@@ -7,17 +7,126 @@ body {
 	background-color: #fffff0;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 22px;
-}
-
-body {
 	position: relative;
 	overflow: auto;
 }
 
-.header {
+/* HEADER SECTION */
+
+/* navigation bar */
+
+.navbar {
+	height: 80px;
+	box-shadow: 0 0 15px #3B1A89;
+}
+
+.navbar a {
+	color: white;
+	text-decoration: none;
+}
+
+.bg-dark {
+	background-color: #5927CF !important;
+}
+
+/* navigation-blocks + links + logo*/
+
+.ml-auto {
+	margin-left: auto !important;
+	margin-right: 3%;
+}
+
+.navbar-nav {
+	margin-left: 3%;
+}
+
+.navigation-links {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0 15px 0 15px;
+}
+
+.dropdown-link {
+	color: black !important;
+}
+
+.dropdown-menu {
+	position: absolute;
+	text-align: center;
+	list-style: none;
+	right: auto;
+	border: none !important;
+	background-color: #FFFFF0;
+	border-radius: 10px;
+}
+
+.navbar-brand {
+	margin-left: 1%;
+}
+
+/* navigation effects/animation */
+
+.navigation-links {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+}
+
+.navigation-links:hover,
+.navigation-links:focus,
+.navigation-links:active {
+	-webkit-transform: translateX(8px);
+	transform: translateX(8px);
+}
+
+/* navbar toggler */
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+	display: block;
+	line-height: 1;
+	-webkit-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+}
+
+.navbar-toggler {
+	position: relative;
+	background: transparent;
+	padding-left: 2%;
+}
+
+.navbar-toggler::before {
+	position: absolute;
+	content: '';
+	top: -8px;
+	right: -12px;
+	left: -12px;
+	bottom: -8px;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.bg-dark {
 	background-color: #5927CF;
 }
 
+#logo {
+	display: block;
+	height: 20px;
+	width: 15px;
+}
+
+/*carousel styling*/
 .carousel-inner img {
 	width: 100%;
 	height: 100%;
@@ -52,6 +161,11 @@ body {
 	border: 1px solid #4d1fb8;
 }
 
+img {
+	width: 100%;
+	height: 100%;
+}
+
 hr {
 	border-top: 3px solid #5927CF;
 	width: 95%;
@@ -68,6 +182,7 @@ hr {
 	content: "";
 	display: block;
 }
+
 /* space between slider and jumbotron*/
 .quote:before {
 	height: 20vh;
@@ -75,6 +190,7 @@ hr {
 	display: block;
 }
 
+/* Jumbotron */
 .jumbotron {
 	background-color: #FDE8D8;
 }
@@ -106,21 +222,6 @@ figure {
 	height: 100%;
 }
 
-img {
-	width: 100%;
-	height: 100%;
-}
-
-/*
-.parallax {
-	background-image: url("images/diy_2.png");
-	height: 100%;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-*/
 
 .tutorialsm {
 	padding: 15px;
@@ -210,11 +311,16 @@ img {
 	margin-top: 10px;
 }
 
-.follow {font-size: 18px;
-	font-weight: bold;}
+.follow {
+	font-size: 18px;
+	font-weight: bold;
+}
 
 
-.social-network {display: inline-block;list-style: none;}
+.social-network {
+	display: inline-block;
+	list-style: none;
+}
 
 .social-network li {
 	display: inline;
@@ -222,14 +328,14 @@ img {
 	margin-left: 14px;
 }
 
-.social-network  ul {
+.social-network ul {
 	list-style: none;
 	display: inline;
-	margin-left:0 !important;
+	margin-left: 0 !important;
 	padding: 0;
 }
 
-/* Media Query */
+/* Media Queries */
 @media (max-width: 992px) {
 
 }
@@ -247,14 +353,13 @@ img {
 	.carousel-caption h2 {
 		font-size: 120%;
 		padding-bottom: .25rem;
-}
+	}
+
 	.carousel-caption .btn-primary {
 		font-size: 90%;
 		padding: 10px 10px;
 	}
 }
-
-
 
 @media (max-width: 576px) {
 	.carousel-caption {
@@ -266,13 +371,14 @@ img {
 	}
 
 	.carousel-caption h2 {
-		font-size: 100%;
-		padding-bottom: .25rem;
+		display: none;
 	}
+
 	.carousel-caption .btn {
 		font-size: 90%;
 		padding: 4px 6px;
 	}
+
 	.carousel-indicators {
 		display: none;
 	}
