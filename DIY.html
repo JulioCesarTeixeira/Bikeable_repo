@@ -15,9 +15,36 @@
 
 </head>
 <body>
-<nav></nav>
 
 <header>
+    <nav class="navbar navbar-expand-sm header">
+        <a class="navbar-brand">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="navigation-links"><a href="index.html">Home</a></li>
+                <li class="navigation-links"><a href="Contact_story/Our-Story.html">Our story</a></li>
+                <li class="navigation-links"><a href="#">Our Bikes</a></li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="navigation-links dropdown text-center">
+                    <a class="navigation-links dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Repair Services</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-link dropdown-item" href="#">Our repairs</a>
+                        <a class="dropdown-link dropdown-item" href="DIY.html">DIY repairs</a>
+                    </div>
+                </li>
+
+                <li class="navigation-links"><a href="Contact_story/Contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
 
     <!--- Bootstrap 4 Carousel slider with 2 pictures -->
     <div id="slides" class="carousel slide" data-ride="carousel">
@@ -148,13 +175,64 @@
                 <a href="https://www.facebook.com/Bikeable-dummy-project-101074111975346" target="_blank"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.instagram.com/bikeable2021/" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="https://twitter.com/Bikeable2" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.youtube.com/channel/UCFo19rmJL9ZOVQH-ZJ3FBog"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
     </div>
 </main>
 
-<footer></footer>
+<footer class="footer">
+    <div class="container py-5">
+        <div class="row py-4">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 company-text-footer">
+                <p>
+                    At Bikeable we want you to feel home. We want to give you the best experience possible when searching
+                    for a new bike. We have a broad selection of bikes especially customed to your needs.
+                    We hope you will make long lasting memories and go on many adventures with one of our bikes.</p>
+
+                <ul class="list-inline mt-4">
+                    <li>Follow us!</li>
+                    <li class="list-inline-item"><a href="https://twitter.com/Bikeable2" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/Bikeable-dummy-project-101074111975346" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCFo19rmJL9ZOVQH-ZJ3FBog" target="_blank" title="youtube"><i class="fa fa-youtube"></i></a></li>
+                    <li class="list-inline-item"><a href="ttps://www.instagram.com/bikeable2021/" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+
+                <ul class="opening-hours list-inline mt-4">
+                    <li><a href="Contact_story/Contact.html">Our opening hours</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+                <ul class="footer-links">
+                    <li>Justitiestraat 18, 2018 Antwerpen <br> <a class="footy" href="tel:034221012">03 422 10 12</a>
+                    </li>
+                    <li>Korenmarkt 55, 9000 Gent <br> <a class="footy" href="tel:095683150">09 568 31 50</a>
+                    </li>
+                    <li>Sint-Amandsstraat 3, 8000 Brugge <br><a class="footy" href="tel:050158100"> 050 15 81 00</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12 mt-4">
+                <ul class="footer-links">
+                    <li>Naamsestraat 3, 3000 Leuven <br> <a class="footy" href="tel:034221012">016 22 00 30</a>
+                    </li>
+                    <li> Zwitserlandstraat 103, 1060 Brussel <br> <a class="footy" href="tel:095683150">02 300 20 10</a>
+                    </li>
+                    <li><br> <a href="mailto: Bikable@hotmail.com">Bikable@hotmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyrights -->
+    <div class="py-4">
+        <div class="container text-center">
+            <p class="copyright-tekst mb-0 py-2">© 2020 Bikable All rights reserved.</p>
+        </div>
+    </div>
+</footer>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
