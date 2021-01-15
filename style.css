@@ -8,7 +8,11 @@
     box-sizing: border-box;
 }
 
-h1 {
+footer {
+    clear: both;
+}
+
+.h1sanne {
     font-size: 200%;
     background-color: #FDE8D8;
     text-align: center;
@@ -30,10 +34,11 @@ body {
     margin-top: 150px;
     text-align: center;
     padding: 20px;
-
 }
-p {
+.tekst p {
     text-align: center;
+    margin: 10px;
+
 }
 
 .gallery {
