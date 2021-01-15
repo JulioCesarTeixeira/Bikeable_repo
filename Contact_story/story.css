@@ -1,0 +1,81 @@
+/* made by Sanne Roelants */
+
+
+html {
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 200%;
+    background-color: #FDE8D8;
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    margin: auto;
+    background-color: #FFFFF0;
+    width:80%;
+
+}
+
+.tekst {
+    float:right;
+    background-color: #FDE8D8;
+    display: block;
+    width: 50%;
+    margin-top: 150px;
+    text-align: center;
+    padding: 20px;
+
+}
+p {
+    text-align: center;
+}
+
+.gallery {
+    float:left;
+    width:40%;
+    display: block;
+}
+
+.photos {
+    list-style: none;
+    width: 100%;
+}
+
+.photos li {
+    display: block;
+    float: left;
+    width: 80%;
+    padding:3%;
+}
+
+.bike-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.bike-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.bike-photo img:hover {
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.kaart{
+    margin-top:150px;
+    width: 40%;
+}
+
