@@ -20,7 +20,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
        <a class="navbar-brand" href="index.html">
-            <img id="logo" src="images/bikable.jpg" alt="logo bikeable" title="bikeable logo">
+            <img class="logo" src="images/bikable.png" alt="logo bikeable" title="bikeable logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,7 +40,7 @@
                         <a class="dropdown-link  dropdown-item" href="DIY.html">DIY repairs</a>
                     </div>
                 </li>
-                <li class="navigation-links"><a href="Contact_story/Contact.html">Contact</a></li>
+                <li class="navigation-links"><a href="Contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -180,29 +180,54 @@
     </div>
 </main>
 <!-- Footer section -->
-<footer class="footer">
+<footer class="bg-dark">
     <div class="container py-5">
         <div class="row py-4">
-            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 company-text-footer">
-                <p>
-                    At Bikeable we want you to feel home. We want to give you the best experience possible when searching
-                    for a new bike. We have a broad selection of bikes especially customed to your needs.
-                    We hope you will make long lasting memories and go on many adventures with one of our bikes.</p>
 
+            <a class="navbar-brand"><img class="logo" src="images/bikable.png" alt="logo-image"></a>
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+
+                <p>
+                    At Bikable we want you to feel home. We want to give you the best experience possible when searching
+                    for a new bike. We have a broad selection of bikes especially customed to your needs.
+                    We hope you will make long lasting memories and go on many adventures with one of our bikes.
+                </p>
                 <ul class="list-inline mt-4">
                     <li>Follow us!</li>
                     <li class="list-inline-item"><a href="https://twitter.com/Bikeable2" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
                     <li class="list-inline-item"><a href="https://www.facebook.com/Bikeable-dummy-project-101074111975346" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
                     <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCFo19rmJL9ZOVQH-ZJ3FBog" target="_blank" title="youtube"><i class="fa fa-youtube"></i></a></li>
-                    <li class="list-inline-item"><a href="ttps://www.instagram.com/bikeable2021/" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/bikeable2021/" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
                 </ul>
 
                 <ul class="opening-hours list-inline mt-4">
-                    <li><a href="Contact.html">Our opening hours</a></li>
+                    <li><a class="opening-hours" href="Contact.html">Our opening hours</a></li>
+                </ul>
+
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Our adresses</h5>
+
+                <ul class="footer-links">
+                    <li>Naamsestraat 3, 3000 Leuven <br> <a class="footy" href="tel:034221012">016 22 00 30</a>
+                    </li>
+                    <li> Zwitserlandstraat 103, 1060 Brussel <br> <a class="footy" href="tel:095683150">02 300 20 10</a>
+                    </li>
+                    <li><br> <a href="mailto: Bikable@hotmail.com">Bikable@hotmail.com</a>
+                    </li>
                 </ul>
             </div>
+            <!--Grid column-->
 
-            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+
                 <ul class="footer-links">
                     <li>Justitiestraat 18, 2018 Antwerpen <br> <a class="footy" href="tel:034221012">03 422 10 12</a>
                     </li>
@@ -212,25 +237,19 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 mt-4">
-                <ul class="footer-links">
-                    <li>Naamsestraat 3, 3000 Leuven <br> <a class="footy" href="tel:034221012">016 22 00 30</a>
-                    </li>
-                    <li> Zwitserlandstraat 103, 1060 Brussel <br> <a class="footy" href="tel:095683150">02 300 20 10</a>
-                    </li>
-                    <li><br> <a href="mailto: Bikeable@hotmail.com">Bikeable@hotmail.com</a>
-                    </li>
-                </ul>
-            </div>
+            <!--Grid column-->
         </div>
+        <!--Grid row-->
     </div>
+    <!-- Grid container -->
 
-    <!-- Copyrights -->
-    <div class="py-4">
+    <!-- Copyright -->
+    <div class="bg-dark py-4">
         <div class="container text-center">
             <p class="copyright-tekst mb-0 py-2">© 2020 Bikable All rights reserved.</p>
         </div>
     </div>
+    <!-- Copyright -->
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
