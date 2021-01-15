@@ -26,7 +26,7 @@ The bicycle company is located in Belgium, Flanders.
 This project is the result of a 3-day team effort in their first coding experience with a full scale website in the making. After deciding the fictional company, it was time to think about the company's corporate identity and how it would be displayed on the internet. Appropriate color schemes were implemented in the layout mock-up in alignment with with the general idea of the company’s web pages. 
 This repository is the final result of this group project.
 
-Check our [website](https://juliocesarteixeira.github.io/Bikeable_repo/).
+Check out our [website](https://juliocesarteixeira.github.io/Bikeable_repo/).
 
 #### Technologies used 
 * **HTML5**
@@ -42,18 +42,12 @@ Check our [website](https://juliocesarteixeira.github.io/Bikeable_repo/).
    ![codesnippet](images/CodeSnippet1.png)
   
 2. Collapsable menu 
-   
-*
+   ![collapse](images/collapse.png)
    
 3. Parallax image
-
-*
+   ![Parallax](images/Parallax.png)
 
 4. Media Query responsive design
+   ![Media queries](images/mediaqueries.png)
 
-*
-
-5. Social media icons (linked to actual dummy accounts made for this single porpoise)
-
-*
 
