@@ -11,7 +11,7 @@
 .navbar {
     height: 80px;
     box-shadow: 0 0 15px #3B1A89;
-    z-index: 9999;
+    z-index: 999;
 }
   .navbar a {
 	color: white;
