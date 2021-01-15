@@ -5,6 +5,14 @@
     font-size: 22px;
 
   }
+
+/* navigation bar */
+
+.navbar {
+    height: 80px;
+    box-shadow: 0 0 15px #3B1A89;
+    z-index: 9999;
+}
   .navbar a {
 	color: white;
 	text-decoration: none;
